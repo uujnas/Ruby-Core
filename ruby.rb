@@ -88,7 +88,7 @@ array2 = [2,3,1,0,5]
 
 array2.each do |num|
 
-    if array1.include? num
+    if !array1.include? num
         
         puts num
 
